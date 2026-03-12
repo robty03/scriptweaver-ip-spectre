@@ -5,3 +5,5 @@ The scans are saved in Amazon DynamoDB, which allows the CLI to keep a history o
 For the optional part, I also added a small AI integration using OpenRouter that can generate an explanation about the detected IP based on the collected data.
 
 One thing I found interesting while doing this project was discovering AWS Systems Manager Parameter Store, which allows storing the API key securely instead of putting it directly in the code.
+
+![CLI screenshot](screenshots/meniu.png)
